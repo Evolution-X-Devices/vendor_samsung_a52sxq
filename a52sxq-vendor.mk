@@ -7,6 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/a52sxq/proprietary/recovery/root/vendor/firmware/tsp_stm/fts5cu56a_a52sxq.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/tsp_stm/fts5cu56a_a52sxq.bin \
+    vendor/samsung/a52sxq/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/a52sxq/proprietary/vendor/etc/audconf/ODM/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ODM/Bluetooth_cal.acdb \
     vendor/samsung/a52sxq/proprietary/vendor/etc/audconf/ODM/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ODM/General_cal.acdb \
     vendor/samsung/a52sxq/proprietary/vendor/etc/audconf/ODM/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ODM/Global_cal.acdb \
